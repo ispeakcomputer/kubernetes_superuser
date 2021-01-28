@@ -2,14 +2,20 @@
 
 Put this code in your bash_rc file. 
 
-This includes a script/alias that I wrote for obtaining RDEI superuser for kubernetes 
-cluster maintenance. 
+This includes a script/alias that I stole that shortens all the crazy long kubernetes commands.
+
+## But wait, There is extra functionality!
+
+One function ran by using the 'ksu' command gives you Kubernetes super user.
+
+The other function is used when ran it gives you a list of cluster IP Addresses that you can then use in 
+quick bash scripts. Lets some you want to return hostnames, uptime, the list goes on!
 
 **Privilege Escalation**
 
-run 'ksu 30' where 30 is the number of minutes you want access to the cluster. 
+run 'ksu 30' where 30 is the number of minutes you want access to the cluster with escalated privs. 
 
-Running 'ksu' will default to 15 minutes.
+Running just 'ksu' will default to 15 minutes.
 
 ksu can use multiple tokens from your kube config for multiple environments.
 
