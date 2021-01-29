@@ -21,10 +21,6 @@ run 'ksu 30' where 30 is the number of minutes you want access to the cluster wi
 
 Running just 'ksu' will default to 15 minutes.
 
-ksu can use multiple tokens from your kube config for multiple environments.
-
-Escalation will be run against all tokens / clusters in your config at the same time.
-
 **Get Cluster Node IPs**
 
 Simply run **kgnip** for 'kubectl get nodes ips'. this returns a IP on each line. 
