@@ -1,4 +1,4 @@
-# Kubernetes Alias file For RDEI
+# Kubernetes Commnad Alias file, quick Privilege Escalation, Get Ip lists For Quick CLI Scripts
 
 Put this code in your bash_rc file. 
 
