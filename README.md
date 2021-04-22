@@ -1,4 +1,4 @@
-# Kubernetes Commnad Alias file, quick Privilege Escalation, Get Ip lists For Quick CLI Scripts
+# Kubernetes Commnad Alias file, Privilege Escalation, Ip lists For Quick CLI Scripts
 
 Put this code in your **~/.bash_rc** file. 
 
@@ -8,7 +8,7 @@ for instance **kuberctl get nodes** will be just **kgn**
 
 to change clusters **kubectl config use-context** becomes **kcuc my-cluster-01**
 
-## But wait, There is extra functionality!
+## Privilege Escalation
 
 One function ran by using the **ksu** command gives you Kubernetes super user via JWT endpoint.
 
