@@ -70,7 +70,7 @@ alias repos='cd ~/Repositories'
 
 alias kcuc='kubectl config use-context'
 
-# Get a list of node IPs on the fly
+## Get a list of node IPs on the fly
 
 Just run **kgnip** and get all node IPs for your current context
 
